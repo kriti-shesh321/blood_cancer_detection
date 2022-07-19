@@ -1,0 +1,163 @@
+/* #DFF6FF */
+body{
+  font-family: "Montserrat", serif;
+  margin: 5% 0 0;
+  background-color: #F5EDDC;
+  color: white;
+}
+
+h1{
+  font-family: "Fredoka", serif;
+  font-size: 7rem;
+  z-index: 1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25%;
+  padding: 1% 15%;
+}
+
+.main{
+  background-image: url('../assets/bg8.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 70vh;
+}
+
+.sub-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.5rem;
+}
+
+.nav{
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.nav button{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 2% 3% 3%;
+  background-color: #D3DEDC;
+  border-radius: 5px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #03045E;
+  font-size: 1.25rem;
+}
+
+.sub{
+  display: flex;
+  width: 25%;
+  justify-content:space-between;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.mid{
+  margin-left: 7%;
+  margin-right: 7%;
+  padding: 3%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+.input-img{
+  visibility: hidden;     /* to remove the text from the input field */
+}
+
+.input-img-label{
+  background-color: #242bba;
+  border: 2px solid rgb(179, 174, 174);
+  border-radius: 6px 3px;
+  padding: 2%;
+  font-size: 1.25rem;
+  font-weight: 900;
+  display: inline-block;
+  width: 25%;
+  margin: 0 35%;
+}
+
+.img-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.img-box{
+  border: 3px solid black;
+  object-fit: cover;
+}
+
+.img-sizing{
+  width: 350px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.hidden{
+  display: none;
+}
+
+.msg{
+  margin-top: 2%;
+  width: 50%;
+  height: auto;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  align-self: center;
+  align-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #03045E;
+}
+
+.footer{
+  padding: 2% 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  background-color: #d45856;
+  color:rgb(5, 5, 5)
+}
+
+.footer-col{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+
+.border{
+  border-left: 3px solid #03045E;
+}
+
+.footer-col a{
+  color: #03045E;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-col>ul>li{
+  list-style-type: none;
+  padding-top: 5%;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  margin: 3% auto 0;
+  color: grey;
+}
